@@ -8,18 +8,16 @@ export function Navbar() {
   const pathname = usePathname();
   return (
     <nav className="flex gap-8">
-      {dataLinks.map((link, index) => (
-        <>
-          <Link
-            key={index}
-            href={link.path}
-            className={`${
-              link.path === pathname && "text-accent border-b-2 border-accent"
-            } capitalize font-medium hover:text-accent transition-all`}
-          >
-            {link.name}
-          </Link>
-        </>
+      {dataLinks.map((link) => (
+        <Link
+          key={link.path} // Aquí asumiendo que `link.path` es único
+          href={link.path}
+          className={`${
+            link.path === pathname && "text-accent border-b-2 border-accent"
+          } capitalize font-medium hover:text-accent transition-all`}
+        >
+          {link.name}
+        </Link>
       ))}
     </nav>
   );
