@@ -22,6 +22,10 @@
     .text-outline-hover {
       -webkit-text-stroke: 1px #00ff99;
     }
+
+    .img-shadow {
+      filter: drop-shadow(1px 1px 20px rgb(8, 156, 8));
+    }
 }
 
   

@@ -36,7 +36,7 @@ export function Photo() {
             fill
             sizes="100vw"
             quality={100}
-            className="object-contain rounded-full"
+            className="object-contain rounded-full img-shadow"
           />
         </motion.div>
 

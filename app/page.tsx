@@ -10,13 +10,14 @@ export default function Home() {
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Programador Fullstack</span>
+            <span className="text-xl">Programador FullStack</span>
             <h1 className="h1 mb-6">
               Hola soy <br /> <span className="text-accent">Juan Barrera</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              He estudiado ingeniería informática en la Universidad de Granada,
-              desarrolador fullstack.
+            Apasionado por la tecnología, busco constantemente mejorar mis habilidades y aprender nuevas tecnologías para afrontar nuevos desafíos en el ámbito de la informática. 
+            <br />
+            Titulado en Ingeniería en Informática y ciclo superior DAM.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
