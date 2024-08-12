@@ -15,12 +15,12 @@ export const dataAbout = {
             fieldValue: "1+ año"
         },
         {
-            fieldName: "Nacionalidad",
-            fieldValue: "España"
-        },
-        {
             fieldName: "Email",
             fieldValue: "juanjosebl2@gmail.com"
+        },
+        {
+            fieldName: "Nacionalidad",
+            fieldValue: "España"
         },
         {
             fieldName: "Lenguajes nivel intermedio",
