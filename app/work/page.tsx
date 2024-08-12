@@ -16,7 +16,7 @@ import Image from "next/image";
 import "swiper/css";
 import { WorkSliderButton } from "./components/WorkSliderButton";
 
-export default function page() {
+export default function Page() {
   const [project, setProyect] = useState(dataWorks[0]);
 
   const handleSlideChange = (swiper: any) => {

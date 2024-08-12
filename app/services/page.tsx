@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { dataServices } from "./components/Services.data";
 import Link from "next/link";
 
-export default function page() {
+export default function Page() {
   return (
     <section className="min-h-[80hv] flex flex-col justify-center py-12 xl:py-0">
       <div className="container mx-auto">

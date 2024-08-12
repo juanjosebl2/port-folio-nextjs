@@ -17,7 +17,7 @@ export default function Home() {
             <p className="max-w-[500px] mb-9 text-white/80">
             Apasionado por la tecnología, busco constantemente mejorar mis habilidades y aprender nuevas tecnologías para afrontar nuevos desafíos en el ámbito de la informática. 
             <br />
-            Titulado en Ingeniería en Informática y ciclo superior DAM.
+            Titulado en Ingeniería en Informática y en el Ciclo Superior DAM.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button

@@ -56,7 +56,7 @@ const dataSkills = {
   ],
 };
 
-export default function page() {
+export default function Page() {
   return (
     <motion.div
       initial={{ opacity: 0 }}
