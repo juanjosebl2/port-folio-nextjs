@@ -15,19 +15,27 @@ export default function Home() {
               Hola soy <br /> <span className="text-accent">Juan Barrera</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            Apasionado por la tecnología, busco constantemente mejorar mis habilidades y aprender nuevas tecnologías para afrontar nuevos desafíos en el ámbito de la informática. 
-            <br />
-            Titulado en Ingeniería en Informática y en el Ciclo Superior DAM.
+              Apasionado por la tecnología, busco constantemente mejorar mis
+              habilidades y aprender nuevas tecnologías para afrontar nuevos
+              desafíos en el ámbito de la informática.
+              <br />
+              Titulado en Ingeniería en Informática y en el Ciclo Superior DAM.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
+              <a
+                href="https://drive.google.com/file/d/1iwtzSHbapVDn3gV9PsUhBvJp9IK07h0T/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <span>Descargar CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>Descargar CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyle="flex gap-6"

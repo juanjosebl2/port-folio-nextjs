@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/Layout/Header";
 import ClientOnlyPageTransition from '@/components/Layout/PageTransition/ClientOnlyPageTransition';
 import ClientOnlyStairTransition from "@/components/Layout/StairTransition/ClientOnlyStairTransition";
+import { Toaster } from "@/components/ui/toaster"
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({
         <ClientOnlyPageTransition>
           {children}
         </ClientOnlyPageTransition>
+        <Toaster />
       </body>
     </html>
   );

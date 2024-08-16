@@ -47,7 +47,7 @@ export const dataWorks = [
         description: "Desarrolo de mi primer portafolio personal, donde muestro mis proyectos, habilidades y experiencia.",
         stack: [{ name: "Javascript" }, { name: "Css" }, { name: "React" }],
         image: "/assets/work/work5.png",
-        live: "https://ecommerce-juan-web.netlify.app/",
+        live: "https://portfolio-juan-web.netlify.app/home",
         github: "https://github.com/juanjosebl2/portfolio-react"
     },
     {

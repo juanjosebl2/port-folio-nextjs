@@ -1,6 +1,6 @@
 export const dataAbout = {
     title: "Sobre mi",
-    description: "Una descricopn de mi",
+    description: "",
     info: [
         {
             fieldName: "Nombre",
@@ -32,22 +32,22 @@ export const dataAbout = {
 export const dataExperience = {
     icon: "/assets/resume/badge.svg",
     title: "Experiencia",
-    description: "Una descricopn de mi",
+    description: "",
     items: [
         {
-            company: "Berner",
-            position: "Desarrollador Fullstack",
-            duration: "2019-2020"
+            company: "Multinacional Berner",
+            position: "Desarrollador Movil Fullstack",
+            duration: "febrero 2018 - septiembre"
         },
         {
             company: "Jtsec",
-            position: "Desarrollador Fullstack",
-            duration: "2022-2023"
+            position: "Desarrollador Web Fullstack",
+            duration: "2022 junio - noviembre"
         },
         {
-            company: "Proyecto de pelugueria para un cliente",
-            position: "Desarrollador Fullstack",
-            duration: "2023-2024"
+            company: "Proyecto de peluqueria",
+            position: "Desarrollador Web Fullstack",
+            duration: "2023"
         },
     ]
 }
@@ -55,21 +55,26 @@ export const dataExperience = {
 export const dataEducation = {
     icon: "/assets/resume/cap.svg",
     title: "Educacion",
-    description: "Una descricopn de mi",
+    description: "",
     items: [
         {
-            company: "Bachillerato",
-            position: "Desarrollador Fullstack",
-            duration: "2019-2020"
+            company: "CES CRISTO REY",
+            position: "Bachillerato",
+            duration: "2014-2016"
         },
         {
-            company: "Ciclo Formativo de Grado Superior",
-            position: "Desarrollador Fullstack",
-            duration: "2022-2023"
+            company: "CES CRISTO REY",
+            position: "Ciclo Formativo de Grado Superior DAM",
+            duration: "2016-2018"
         },
         {
-            company: "Ingenieria Informatica",
-            position: "Desarrollador Fullstack",
+            company: "Universidad ETSIIT",
+            position: "Ingenieria Informatica",
+            duration: "2023-2024"
+        },
+        {
+            company: "Universidad ISCTE Lisboa Erasmus",
+            position: "Ingenieria Informatica",
             duration: "2023-2024"
         },
     ]
